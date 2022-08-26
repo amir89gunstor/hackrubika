@@ -1,7 +1,7 @@
 import requests
 from time import sleep
 from threading import Thread
-
+import os
 phone =input("inter your phone : ")
 send = 1
 proxy = {"socks5": "127.0.0.1:9150"}
